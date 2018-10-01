@@ -1,0 +1,26 @@
+<html>
+    <!--Uses anywhere.js
+    Display a message when the mouse button is pressed. no matter where it is on the screen-->
+    <head>
+        <script type="text/javascript" src="anywhere.js"></script>
+    </head>
+    <body onmousedown="displayIt(event);"
+            onmouseup="hideIt();">
+            <p>
+                <span id="message"
+                    style="color:red;
+                    visibility: hidden;
+                    position: absolute;
+                    font-size: 1.7em;
+                    font-style: italic;
+                    font-weight: bold;">
+
+
+                    Please don't click me!
+                </span>
+                <br><br><br><br><br><br>
+                <br><br><br><br><br><br>
+            </p>
+        
+    </body>
+</html>
